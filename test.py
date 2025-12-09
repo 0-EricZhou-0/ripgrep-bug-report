@@ -2,7 +2,7 @@ import subprocess
 
 p = subprocess.Popen(
     [
-        "/home/ericzhou/Document/GPUErrorDetection/third_party/ripgrep/rg",
+        "rg",
         "test.log",
         "-e", r"(?:Traceback \(most recent call last\):|File \".*\",\s+line\s+\d+,\s+in).*\n(?:.*\n)*?.*?\S*(?:Error|Exception|Interrupt)(?:\:.*)?$",
         "--json",

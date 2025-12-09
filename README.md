@@ -21,4 +21,4 @@ Submatch start/end: (294, 3579)
 Submatch length: 3267
 Submatch start + length: 3561
 ```
-As you can see, submatch end (3579) is even greater thaan match length (3560). But Submatch start + length is correct somehow.
+As you can see, submatch end (3579) is even greater than match length (3560). But submatch start + length is correct somehow.
